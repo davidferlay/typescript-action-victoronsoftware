@@ -14,12 +14,16 @@ importers:
       '@actions/github':
         specifier: ^6.0.0
         version: 6.0.0
+    optionalDependencies:
+      '@rollup/rollup-linux-x64-gnu':
+        specifier: '*'
+        version: 4.40.1
     devDependencies:
       '@eslint/compat':
-        specifier: ^1.2.8
+        specifier: ^1.2.9
         version: 1.2.9(eslint@9.26.0)
       '@github/local-action':
-        specifier: ^3.2.0
+        specifier: ^3.2.1
         version: 3.2.1(eslint@9.26.0)
       '@jest/globals':
         specifier: ^29.7.0
@@ -37,16 +41,16 @@ importers:
         specifier: ^29.5.14
         version: 29.5.14
       '@types/node':
-        specifier: ^20.17.31
+        specifier: ^20.17.32
         version: 20.17.32
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.31.0
+        specifier: ^8.31.1
         version: 8.31.1(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3)
       '@typescript-eslint/parser':
-        specifier: ^8.31.0
+        specifier: ^8.31.1
         version: 8.31.1(eslint@9.26.0)(typescript@5.8.3)
       eslint:
-        specifier: ^9.25.1
+        specifier: ^9.26.0
         version: 9.26.0
       eslint-config-prettier:
         specifier: ^10.1.2
@@ -61,7 +65,7 @@ importers:
         specifier: ^28.11.0
         version: 28.11.0(@typescript-eslint/eslint-plugin@8.31.1(@typescript-eslint/parser@8.31.1(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(typescript@5.8.3))(eslint@9.26.0)(jest@29.7.0(@types/node@20.17.32))(typescript@5.8.3)
       eslint-plugin-prettier:
-        specifier: ^5.2.6
+        specifier: ^5.3.1
         version: 5.3.1(eslint-config-prettier@10.1.2(eslint@9.26.0))(eslint@9.26.0)(prettier@3.5.3)
       jest:
         specifier: ^29.7.0
@@ -76,7 +80,7 @@ importers:
         specifier: ^16.4.1
         version: 16.4.1(typescript@5.8.3)
       rollup:
-        specifier: ^4.40.0
+        specifier: ^4.40.1
         version: 4.40.1
       ts-jest:
         specifier: ^29.3.2
@@ -87,10 +91,6 @@ importers:
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
-    optionalDependencies:
-      '@rollup/rollup-linux-x64-gnu':
-        specifier: '*'
-        version: 4.40.1
 
 packages:
 

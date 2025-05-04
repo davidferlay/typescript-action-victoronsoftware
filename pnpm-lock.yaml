@@ -86,6 +86,9 @@ importers:
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
+      undici:
+        specifier: 6.11.0
+        version: 6.11.0
     optionalDependencies:
       '@rollup/rollup-linux-x64-gnu':
         specifier: '*'
@@ -5739,6 +5742,13 @@ packages:
       }
     engines: { node: '>=14.0' }
 
+  undici@6.11.0:
+    resolution:
+      {
+        integrity: sha512-y4AOKcD36FXz+MY19yw8Emtbsdp8wBWTLln508+EJwqWezUheU5PSRbvIb+pQld7ZoOY8ruNwqSejSVGZUS/aA==
+      }
+    engines: { node: '>=18.0' }
+
   undici@7.8.0:
     resolution:
       {
@@ -9914,6 +9924,8 @@ snapshots:
   undici@5.29.0:
     dependencies:
       '@fastify/busboy': 2.1.1
+
+  undici@6.11.0: {}
 
   undici@7.8.0: {}
 
